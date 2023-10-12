@@ -14,5 +14,7 @@ jobs:
       - run: make say-hello
       - name: setup
         run: make setup
-        run: make test
-        run: make lint 
+      - name: test        
+      - run: make test
+      - name: lint      
+      - run: make lint 
